@@ -61,7 +61,8 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://cos-30049-team-project.vercel.app",
+    "https://transfer-etherium-web.vercel.app",
+    "https://transfer-etherium-ojudka8b1-qiutees-projects.vercel.app",
 ]
 
 REST_FRAMEWORK = {
