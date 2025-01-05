@@ -17,11 +17,11 @@ function Verify() {
     location.state?.token || new URLSearchParams(location.search).get("token");
 
   useEffect(() => {
-    // Kiểm tra nếu token không tồn tại, chuyển hướng đến trang signup
-    // if (!token) {
-    //   navigate("/signup");
-    //   return;
-    // }
+    
+    if (!token) {
+      navigate("/signup");
+      return;
+    }
 
     const inputs = inputsRef.current;
 
